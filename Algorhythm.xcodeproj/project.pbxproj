@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		B53E36CD1B9691E7008E3E83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36CC1B9691E7008E3E83 /* main.m */; };
 		B53E36D01B9691E7008E3E83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36CF1B9691E7008E3E83 /* AppDelegate.m */; };
-		B53E36D31B9691E7008E3E83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36D21B9691E7008E3E83 /* ViewController.m */; };
+		B53E36D31B9691E7008E3E83 /* PlaylistMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36D21B9691E7008E3E83 /* PlaylistMasterViewController.m */; };
 		B53E36D61B9691E7008E3E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53E36D41B9691E7008E3E83 /* Main.storyboard */; };
 		B53E36D81B9691E7008E3E83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53E36D71B9691E7008E3E83 /* Images.xcassets */; };
 		B53E36DB1B9691E7008E3E83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53E36D91B9691E7008E3E83 /* LaunchScreen.xib */; };
 		B53E36E71B9691E7008E3E83 /* AlgorhythmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36E61B9691E7008E3E83 /* AlgorhythmTests.m */; };
+		B53E36F21B969C48008E3E83 /* PlaylistDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36F11B969C48008E3E83 /* PlaylistDetailViewController.m */; };
+		B53E36F51B96B4C0008E3E83 /* MusicLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36F41B96B4C0008E3E83 /* MusicLibrary.m */; };
+		B53E36F81B96B7A6008E3E83 /* Playlist.m in Sources */ = {isa = PBXBuildFile; fileRef = B53E36F71B96B7A6008E3E83 /* Playlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		B53E36CC1B9691E7008E3E83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B53E36CE1B9691E7008E3E83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B53E36CF1B9691E7008E3E83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B53E36D11B9691E7008E3E83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B53E36D21B9691E7008E3E83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B53E36D11B9691E7008E3E83 /* PlaylistMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaylistMasterViewController.h; sourceTree = "<group>"; };
+		B53E36D21B9691E7008E3E83 /* PlaylistMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaylistMasterViewController.m; sourceTree = "<group>"; };
 		B53E36D51B9691E7008E3E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B53E36D71B9691E7008E3E83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B53E36DA1B9691E7008E3E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B53E36E01B9691E7008E3E83 /* AlgorhythmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorhythmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53E36E51B9691E7008E3E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B53E36E61B9691E7008E3E83 /* AlgorhythmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorhythmTests.m; sourceTree = "<group>"; };
+		B53E36F01B969C48008E3E83 /* PlaylistDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaylistDetailViewController.h; sourceTree = "<group>"; };
+		B53E36F11B969C48008E3E83 /* PlaylistDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaylistDetailViewController.m; sourceTree = "<group>"; };
+		B53E36F31B96B4C0008E3E83 /* MusicLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicLibrary.h; sourceTree = "<group>"; };
+		B53E36F41B96B4C0008E3E83 /* MusicLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicLibrary.m; sourceTree = "<group>"; };
+		B53E36F61B96B7A6008E3E83 /* Playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Playlist.h; sourceTree = "<group>"; };
+		B53E36F71B96B7A6008E3E83 /* Playlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Playlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				B53E36CE1B9691E7008E3E83 /* AppDelegate.h */,
 				B53E36CF1B9691E7008E3E83 /* AppDelegate.m */,
-				B53E36D11B9691E7008E3E83 /* ViewController.h */,
-				B53E36D21B9691E7008E3E83 /* ViewController.m */,
+				B53E36D11B9691E7008E3E83 /* PlaylistMasterViewController.h */,
+				B53E36D21B9691E7008E3E83 /* PlaylistMasterViewController.m */,
+				B53E36F01B969C48008E3E83 /* PlaylistDetailViewController.h */,
+				B53E36F11B969C48008E3E83 /* PlaylistDetailViewController.m */,
+				B53E36F31B96B4C0008E3E83 /* MusicLibrary.h */,
+				B53E36F41B96B4C0008E3E83 /* MusicLibrary.m */,
+				B53E36F61B96B7A6008E3E83 /* Playlist.h */,
+				B53E36F71B96B7A6008E3E83 /* Playlist.m */,
 				B53E36D41B9691E7008E3E83 /* Main.storyboard */,
 				B53E36D71B9691E7008E3E83 /* Images.xcassets */,
 				B53E36D91B9691E7008E3E83 /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53E36D31B9691E7008E3E83 /* ViewController.m in Sources */,
+				B53E36D31B9691E7008E3E83 /* PlaylistMasterViewController.m in Sources */,
+				B53E36F81B96B7A6008E3E83 /* Playlist.m in Sources */,
+				B53E36F21B969C48008E3E83 /* PlaylistDetailViewController.m in Sources */,
 				B53E36D01B9691E7008E3E83 /* AppDelegate.m in Sources */,
 				B53E36CD1B9691E7008E3E83 /* main.m in Sources */,
+				B53E36F51B96B4C0008E3E83 /* MusicLibrary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
